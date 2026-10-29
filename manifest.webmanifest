@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Nihongo Path – Japanese Learning",
+  "short_name": "Nihongo Path",
+  "description": "Nihongo Path offline-first Japanese learning",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1225",
+  "theme_color": "#0c1429",
+  "icons": [
+    {
+      "src": "./huy-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./huy-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
