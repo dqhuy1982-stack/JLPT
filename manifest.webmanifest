@@ -1,13 +1,13 @@
 {
   "id": "./",
-  "name": "Nihongo Path – Japanese Learning",
-  "short_name": "Nihongo Path",
-  "description": "Nihongo Path offline-first Japanese learning",
+  "name": "Nihongo Path V7 — Journey to Fuji Demo",
+  "short_name": "Nihongo V7",
+  "description": "V7 functional roadmap demo with four fictional learner profiles",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0b1225",
-  "theme_color": "#0c1429",
+  "background_color": "#0a1229",
+  "theme_color": "#0a1229",
   "icons": [
     {
       "src": "./huy-mark-192.png",
