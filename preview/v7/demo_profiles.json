@@ -1,0 +1,1639 @@
+{
+  "note": "Sample fixture data only; not verified proficiency",
+  "profiles": {
+    "dad": {
+      "id": "dad",
+      "name": "Dad",
+      "jp": "フイ",
+      "avatar": "👨🏻",
+      "target": "N5",
+      "context": "bus",
+      "goal": 20,
+      "lang": "vi",
+      "minutes": 415,
+      "days": 12,
+      "accuracy": 82,
+      "history": [
+        {
+          "kind": "hiragana",
+          "correct": 41,
+          "total": 46,
+          "daysAgo": 5,
+          "seconds": 196,
+          "id": "dad-seed-0",
+          "at": "2026-10-25T01:16:25.717Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        },
+        {
+          "kind": "hiragana",
+          "correct": 42,
+          "total": 46,
+          "daysAgo": 3,
+          "seconds": 178,
+          "id": "dad-seed-1",
+          "at": "2026-10-27T01:16:25.717Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        },
+        {
+          "kind": "katakana",
+          "correct": 33,
+          "total": 46,
+          "daysAgo": 1,
+          "seconds": 275,
+          "id": "dad-seed-2",
+          "at": "2026-10-29T01:16:25.717Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        }
+      ],
+      "pausedSnapshots": {},
+      "review": [
+        {
+          "id": "dad-r-0",
+          "text": "シ / ツ",
+          "note": "Katakana",
+          "kind": "katakana",
+          "source": "sample",
+          "at": "2026-10-29T01:16:25.717Z"
+        },
+        {
+          "id": "dad-r-1",
+          "text": "は / も",
+          "note": "Trợ từ N5",
+          "kind": "minna1",
+          "source": "sample",
+          "at": "2026-10-28T01:16:25.717Z"
+        },
+        {
+          "id": "dad-r-2",
+          "text": "ぬ / め",
+          "note": "Nhầm mặt chữ",
+          "kind": "hiragana",
+          "source": "sample",
+          "at": "2026-10-27T01:16:25.717Z"
+        }
+      ],
+      "snapshot": {
+        "kind": "minna1",
+        "questions": [
+          {
+            "id": "n5-0-3",
+            "prompt": "「ミラーさんは いしゃですか。」 là dạng nào?",
+            "promptVi": "「ミラーさんは いしゃですか。」 là dạng nào?",
+            "promptEn": "What type of sentence is 「ミラーさんは いしゃですか。」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Câu sở hữu",
+                "en": "Possessive"
+              },
+              {
+                "i": 0,
+                "vi": "Câu hỏi",
+                "en": "Question"
+              },
+              {
+                "i": 2,
+                "vi": "Câu mệnh lệnh",
+                "en": "Imperative"
+              },
+              {
+                "i": 1,
+                "vi": "Câu phủ định",
+                "en": "Negative"
+              }
+            ],
+            "explain": {
+              "vi": "か ở cuối câu dùng để đặt câu hỏi.",
+              "en": "か at sentence end makes a question."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-1-0",
+            "prompt": "「わたしは がくせいです。」 có nghĩa là gì?",
+            "promptVi": "「わたしは がくせいです。」 có nghĩa là gì?",
+            "promptEn": "What does 「わたしは がくせいです。」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Tôi cũng là giáo viên.",
+                "en": "I am also a teacher."
+              },
+              {
+                "i": 0,
+                "vi": "Tôi là học sinh / sinh viên.",
+                "en": "I am a student."
+              },
+              {
+                "i": 1,
+                "vi": "Tôi không phải học sinh.",
+                "en": "I am not a student."
+              },
+              {
+                "i": 2,
+                "vi": "Bạn là giáo viên.",
+                "en": "You are a teacher."
+              }
+            ],
+            "explain": {
+              "vi": "は đánh dấu chủ đề và です làm câu lịch sự.",
+              "en": "は marks the topic; です makes a polite noun-predicate sentence."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-2-11",
+            "prompt": "Điền câu hỏi: あなたは がくせいです（　）。",
+            "promptVi": "Điền câu hỏi: あなたは がくせいです（　）。",
+            "promptEn": "Complete: あなたは がくせいです（　）。",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "の",
+                "en": "の"
+              },
+              {
+                "i": 2,
+                "vi": "も",
+                "en": "も"
+              },
+              {
+                "i": 0,
+                "vi": "か",
+                "en": "か"
+              },
+              {
+                "i": 3,
+                "vi": "は",
+                "en": "は"
+              }
+            ],
+            "explain": {
+              "vi": "Trợ từ hỏi か ở cuối câu.",
+              "en": "The question particle か goes at the end."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-3-7",
+            "prompt": "Nói lịch sự “Tôi là nhân viên công ty” bằng câu nào?",
+            "promptVi": "Nói lịch sự “Tôi là nhân viên công ty” bằng câu nào?",
+            "promptEn": "Which politely means “I am a company employee”?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "わたしは せんせいですか。",
+                "en": "わたしは せんせいですか。"
+              },
+              {
+                "i": 1,
+                "vi": "わたしは いしゃです。",
+                "en": "わたしは いしゃです。"
+              },
+              {
+                "i": 3,
+                "vi": "かいしゃいんじゃありません。",
+                "en": "かいしゃいんじゃありません。"
+              },
+              {
+                "i": 0,
+                "vi": "わたしは かいしゃいんです。",
+                "en": "わたしは かいしゃいんです。"
+              }
+            ],
+            "explain": {
+              "vi": "かいしゃいん là nhân viên công ty.",
+              "en": "かいしゃいん means company employee."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-4-16",
+            "prompt": "「おなまえは？」 hỏi gì?",
+            "promptVi": "「おなまえは？」 hỏi gì?",
+            "promptEn": "What does 「おなまえは？」 ask?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Tên",
+                "en": "Name"
+              },
+              {
+                "i": 3,
+                "vi": "Tuổi",
+                "en": "Age"
+              },
+              {
+                "i": 2,
+                "vi": "Địa chỉ",
+                "en": "Address"
+              },
+              {
+                "i": 1,
+                "vi": "Công việc",
+                "en": "Job"
+              }
+            ],
+            "explain": {
+              "vi": "おなまえ là tên (cách nói lịch sự).",
+              "en": "おなまえ means name (polite form)."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-5-9",
+            "prompt": "Dùng せんせい khi nào phù hợp nhất?",
+            "promptVi": "Dùng せんせい khi nào phù hợp nhất?",
+            "promptEn": "When is せんせい most appropriate?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Gọi hoặc nhắc tới thầy/cô khác",
+                "en": "Addressing/referring to another teacher"
+              },
+              {
+                "i": 1,
+                "vi": "Tự giới thiệu nghề giáo viên của mình",
+                "en": "Introducing your own occupation as a teacher"
+              },
+              {
+                "i": 2,
+                "vi": "Gọi mọi nhân viên",
+                "en": "Any employee"
+              },
+              {
+                "i": 3,
+                "vi": "Gọi người cùng tuổi",
+                "en": "Anyone your age"
+              }
+            ],
+            "explain": {
+              "vi": "Khi giới thiệu nghề giáo viên của mình thường dùng きょうし.",
+              "en": "For your own job as a teacher, きょうし is commonly used."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-6-6",
+            "prompt": "「はじめまして」 thường dùng khi nào?",
+            "promptVi": "「はじめまして」 thường dùng khi nào?",
+            "promptEn": "When do people usually say 「はじめまして」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Lần đầu gặp nhau",
+                "en": "Meeting someone for the first time"
+              },
+              {
+                "i": 1,
+                "vi": "Khi xin lỗi",
+                "en": "Apologizing"
+              },
+              {
+                "i": 2,
+                "vi": "Trước khi ngủ",
+                "en": "Before sleeping"
+              },
+              {
+                "i": 3,
+                "vi": "Khi tạm biệt",
+                "en": "Saying goodbye"
+              }
+            ],
+            "explain": {
+              "vi": "Cụm này dùng khi bắt đầu làm quen lần đầu.",
+              "en": "Used when meeting somebody for the first time."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-7-5",
+            "prompt": "「IMCの しゃいん」 từ の thể hiện gì?",
+            "promptVi": "「IMCの しゃいん」 từ の thể hiện gì?",
+            "promptEn": "What does の indicate in 「IMCの しゃいん」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Quan hệ thuộc về",
+                "en": "Association / belonging"
+              },
+              {
+                "i": 1,
+                "vi": "Câu hỏi",
+                "en": "A question"
+              },
+              {
+                "i": 3,
+                "vi": "Thì quá khứ",
+                "en": "Past tense"
+              },
+              {
+                "i": 2,
+                "vi": "Từ phủ định",
+                "en": "Negation"
+              }
+            ],
+            "explain": {
+              "vi": "の liên kết hai danh từ theo quan hệ bổ nghĩa.",
+              "en": "の links nouns in a modifying relationship."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-8-18",
+            "prompt": "「あのかた」 so với 「あのひと」 có sắc thái nào?",
+            "promptVi": "「あのかた」 so với 「あのひと」 có sắc thái nào?",
+            "promptEn": "How does 「あのかた」 compare to 「あのひと」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Thô lỗ hơn",
+                "en": "Ruder"
+              },
+              {
+                "i": 2,
+                "vi": "Phủ định",
+                "en": "Negative"
+              },
+              {
+                "i": 3,
+                "vi": "Số nhiều",
+                "en": "Plural"
+              },
+              {
+                "i": 0,
+                "vi": "Lịch sự hơn",
+                "en": "More polite"
+              }
+            ],
+            "explain": {
+              "vi": "かた là cách nói lịch sự hơn của ひと trong bối cảnh này.",
+              "en": "かた is more polite than ひと in this context."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-9-4",
+            "prompt": "Điền: いいえ、いしゃ（　）。",
+            "promptVi": "Điền: いいえ、いしゃ（　）。",
+            "promptEn": "Fill in: いいえ、いしゃ（　）。",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "じゃありません",
+                "en": "じゃありません"
+              },
+              {
+                "i": 2,
+                "vi": "も",
+                "en": "も"
+              },
+              {
+                "i": 3,
+                "vi": "か",
+                "en": "か"
+              },
+              {
+                "i": 1,
+                "vi": "です",
+                "en": "です"
+              }
+            ],
+            "explain": {
+              "vi": "じゃありません là phủ định lịch sự của vị ngữ danh từ.",
+              "en": "じゃありません is a polite noun-predicate negative."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-10-19",
+            "prompt": "「わたしも がくせいです。」 nghĩa là?",
+            "promptVi": "「わたしも がくせいです。」 nghĩa là?",
+            "promptEn": "What does 「わたしも がくせいです。」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Tôi không phải học sinh.",
+                "en": "I am not a student."
+              },
+              {
+                "i": 0,
+                "vi": "Tôi cũng là học sinh/sinh viên.",
+                "en": "I am also a student."
+              },
+              {
+                "i": 3,
+                "vi": "Tôi là giáo viên.",
+                "en": "I am a teacher."
+              },
+              {
+                "i": 2,
+                "vi": "Bạn là học sinh à?",
+                "en": "Are you a student?"
+              }
+            ],
+            "explain": {
+              "vi": "も diễn đạt sự tương đồng: cũng.",
+              "en": "も signals “also”."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-11-10",
+            "prompt": "「わたしは ベトナムじんです。」 nghĩa là gì?",
+            "promptVi": "「わたしは ベトナムじんです。」 nghĩa là gì?",
+            "promptEn": "What does 「わたしは ベトナムじんです。」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Tôi là giáo viên Việt Nam.",
+                "en": "I am a Vietnamese teacher."
+              },
+              {
+                "i": 1,
+                "vi": "Tôi sống ở Việt Nam.",
+                "en": "I live in Vietnam."
+              },
+              {
+                "i": 2,
+                "vi": "Tôi học tiếng Việt.",
+                "en": "I study Vietnamese."
+              },
+              {
+                "i": 0,
+                "vi": "Tôi là người Việt Nam.",
+                "en": "I am Vietnamese."
+              }
+            ],
+            "explain": {
+              "vi": "Tên nước + じん chỉ quốc tịch.",
+              "en": "Country name + じん indicates nationality."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-12-14",
+            "prompt": "「どうぞよろしく おねがいします」 thường ở đâu?",
+            "promptVi": "「どうぞよろしく おねがいします」 thường ở đâu?",
+            "promptEn": "When is 「どうぞよろしく おねがいします」 commonly used?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Cuối phần giới thiệu lần đầu",
+                "en": "At the end of a first introduction"
+              },
+              {
+                "i": 3,
+                "vi": "Khi không hiểu bài",
+                "en": "Not understanding a lesson"
+              },
+              {
+                "i": 1,
+                "vi": "Khi gọi món",
+                "en": "Ordering food"
+              },
+              {
+                "i": 2,
+                "vi": "Khi hỏi giờ",
+                "en": "Asking time"
+              }
+            ],
+            "explain": {
+              "vi": "Cụm này thể hiện mong muốn được giúp đỡ/giao tiếp tốt.",
+              "en": "A polite closing expression during an introduction."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-13-12",
+            "prompt": "「わたしは エンジニアじゃありません。」 có nghĩa gì?",
+            "promptVi": "「わたしは エンジニアじゃありません。」 có nghĩa gì?",
+            "promptEn": "What does 「わたしは エンジニアじゃありません。」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Tôi cũng là kỹ sư.",
+                "en": "I am also an engineer."
+              },
+              {
+                "i": 0,
+                "vi": "Tôi không phải kỹ sư.",
+                "en": "I am not an engineer."
+              },
+              {
+                "i": 1,
+                "vi": "Tôi là kỹ sư.",
+                "en": "I am an engineer."
+              },
+              {
+                "i": 3,
+                "vi": "Kỹ sư là ai?",
+                "en": "Who is the engineer?"
+              }
+            ],
+            "explain": {
+              "vi": "じゃありません là dạng phủ định.",
+              "en": "じゃありません is a negative form."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-14-15",
+            "prompt": "「なんさいですか。」 hỏi thông tin gì?",
+            "promptVi": "「なんさいですか。」 hỏi thông tin gì?",
+            "promptEn": "What information does 「なんさいですか。」 ask?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Tuổi",
+                "en": "Age"
+              },
+              {
+                "i": 1,
+                "vi": "Tên",
+                "en": "Name"
+              },
+              {
+                "i": 3,
+                "vi": "Quốc tịch",
+                "en": "Nationality"
+              },
+              {
+                "i": 2,
+                "vi": "Nghề",
+                "en": "Job"
+              }
+            ],
+            "explain": {
+              "vi": "なんさい là bao nhiêu tuổi.",
+              "en": "なんさい means how old."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-15-8",
+            "prompt": "「あのひとは だれですか。」 hỏi gì?",
+            "promptVi": "「あのひとは だれですか。」 hỏi gì?",
+            "promptEn": "What does 「あのひとは だれですか。」 ask?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Bạn bao nhiêu tuổi?",
+                "en": "How old are you?"
+              },
+              {
+                "i": 3,
+                "vi": "Kia là cái gì?",
+                "en": "What is that?"
+              },
+              {
+                "i": 2,
+                "vi": "Bạn làm ở đâu?",
+                "en": "Where do you work?"
+              },
+              {
+                "i": 0,
+                "vi": "Người kia là ai?",
+                "en": "Who is that person?"
+              }
+            ],
+            "explain": {
+              "vi": "だれ = ai; あのひと = người kia.",
+              "en": "だれ = who; あのひと = that person."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-16-13",
+            "prompt": "「こちらは たなかさんです。」 dùng để làm gì?",
+            "promptVi": "「こちらは たなかさんです。」 dùng để làm gì?",
+            "promptEn": "What is 「こちらは たなかさんです。」 used for?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Tạm biệt",
+                "en": "Saying goodbye"
+              },
+              {
+                "i": 2,
+                "vi": "Từ chối",
+                "en": "Refusing"
+              },
+              {
+                "i": 1,
+                "vi": "Hỏi tuổi",
+                "en": "Asking age"
+              },
+              {
+                "i": 0,
+                "vi": "Giới thiệu người khác",
+                "en": "Introducing someone"
+              }
+            ],
+            "explain": {
+              "vi": "こちらは…です dùng để giới thiệu một người.",
+              "en": "こちらは…です introduces a person."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "n5-17-1",
+            "prompt": "Điền: わたし（　）ベトナムじんです。",
+            "promptVi": "Điền: わたし（　）ベトナムじんです。",
+            "promptEn": "Fill in: わたし（　）ベトナムじんです。",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "か",
+                "en": "か"
+              },
+              {
+                "i": 3,
+                "vi": "も",
+                "en": "も"
+              },
+              {
+                "i": 0,
+                "vi": "は",
+                "en": "は"
+              },
+              {
+                "i": 1,
+                "vi": "の",
+                "en": "の"
+              }
+            ],
+            "explain": {
+              "vi": "Dùng は để giới thiệu thông tin về mình.",
+              "en": "Use は to introduce information about yourself."
+            },
+            "romaji": ""
+          }
+        ],
+        "index": 6,
+        "answers": [
+          {
+            "id": "n5-0-3",
+            "prompt": "「ミラーさんは いしゃですか。」 là dạng nào?",
+            "correct": true,
+            "seconds": 8,
+            "answer": "",
+            "expected": "Câu hỏi",
+            "hints": 0
+          },
+          {
+            "id": "n5-1-0",
+            "prompt": "「わたしは がくせいです。」 có nghĩa là gì?",
+            "correct": true,
+            "seconds": 9,
+            "answer": "",
+            "expected": "Tôi là học sinh / sinh viên.",
+            "hints": 0
+          },
+          {
+            "id": "n5-2-11",
+            "prompt": "Điền câu hỏi: あなたは がくせいです（　）。",
+            "correct": true,
+            "seconds": 10,
+            "answer": "",
+            "expected": "か",
+            "hints": 0
+          },
+          {
+            "id": "n5-3-7",
+            "prompt": "Nói lịch sự “Tôi là nhân viên công ty” bằng câu nào?",
+            "correct": false,
+            "seconds": 11,
+            "answer": "",
+            "expected": "わたしは かいしゃいんです。",
+            "hints": 0
+          },
+          {
+            "id": "n5-4-16",
+            "prompt": "「おなまえは？」 hỏi gì?",
+            "correct": true,
+            "seconds": 12,
+            "answer": "",
+            "expected": "Tên",
+            "hints": 0
+          },
+          {
+            "id": "n5-5-9",
+            "prompt": "Dùng せんせい khi nào phù hợp nhất?",
+            "correct": true,
+            "seconds": 13,
+            "answer": "",
+            "expected": "Gọi hoặc nhắc tới thầy/cô khác",
+            "hints": 0
+          }
+        ],
+        "selected": null,
+        "hints": 0,
+        "qSeconds": 0,
+        "startedAt": "2026-10-30T01:16:25.729Z",
+        "lastSaved": "2026-10-29T01:16:25.729Z",
+        "feedback": false
+      },
+      "seenTour": false,
+      "extraSessions": [
+        {
+          "at": "2026-10-30T01:16:25.717Z",
+          "minutes": 4
+        },
+        {
+          "at": "2026-10-29T01:16:25.717Z",
+          "minutes": 8
+        },
+        {
+          "at": "2026-10-28T01:16:25.717Z",
+          "minutes": 12
+        },
+        {
+          "at": "2026-10-27T01:16:25.717Z",
+          "minutes": 16
+        },
+        {
+          "at": "2026-10-26T01:16:25.717Z",
+          "minutes": 20
+        },
+        {
+          "at": "2026-10-25T01:16:25.717Z",
+          "minutes": 24
+        },
+        {
+          "at": "2026-10-24T01:16:25.717Z",
+          "minutes": 28
+        }
+      ]
+    },
+    "learner_n2": {
+      "id": "learner_n2",
+      "name": "Learner N2",
+      "jp": "ユキ",
+      "avatar": "👩🏻",
+      "target": "N2",
+      "context": "desk",
+      "goal": 45,
+      "lang": "vi",
+      "minutes": 2395,
+      "days": 43,
+      "accuracy": 87,
+      "history": [
+        {
+          "kind": "N2-demo",
+          "correct": 4,
+          "total": 5,
+          "daysAgo": 2,
+          "seconds": 224,
+          "id": "learner_n2-seed-0",
+          "at": "2026-10-28T01:16:25.717Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        },
+        {
+          "kind": "N2-demo",
+          "correct": 3,
+          "total": 5,
+          "daysAgo": 6,
+          "seconds": 251,
+          "id": "learner_n2-seed-1",
+          "at": "2026-10-24T01:16:25.717Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        }
+      ],
+      "pausedSnapshots": {},
+      "review": [
+        {
+          "id": "learner_n2-r-0",
+          "text": "〜かねない",
+          "note": "Ngữ pháp N2",
+          "kind": "N2-demo",
+          "source": "sample",
+          "at": "2026-10-29T01:16:25.717Z"
+        },
+        {
+          "id": "learner_n2-r-1",
+          "text": "再検討",
+          "note": "Từ công việc N2",
+          "kind": "N2-demo",
+          "source": "sample",
+          "at": "2026-10-28T01:16:25.717Z"
+        }
+      ],
+      "snapshot": {
+        "kind": "N2-demo",
+        "questions": [
+          {
+            "id": "N2-demo-0",
+            "prompt": "「〜かねない」 thể hiện điều gì?",
+            "promptVi": "「〜かねない」 thể hiện điều gì?",
+            "promptEn": "What does 「〜かねない」 suggest?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Nhờ kiểm tra lịch sự",
+                "en": "Polite request to check"
+              },
+              {
+                "i": 3,
+                "vi": "Sẽ xem xét lại vấn đề này.",
+                "en": "We will reconsider this matter."
+              },
+              {
+                "i": 0,
+                "vi": "Có nguy cơ xảy ra",
+                "en": "Risk of happening"
+              },
+              {
+                "i": 2,
+                "vi": "Dựa trên/cân nhắc",
+                "en": "Taking into account"
+              }
+            ],
+            "explain": {
+              "vi": "Có nguy cơ xảy ra",
+              "en": "Risk of happening"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N2-demo-1",
+            "prompt": "「本件について再検討いたします。」 là gì?",
+            "promptVi": "「本件について再検討いたします。」 là gì?",
+            "promptEn": "Meaning of 「本件について再検討いたします。」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Nhờ kiểm tra lịch sự",
+                "en": "Polite request to check"
+              },
+              {
+                "i": 1,
+                "vi": "Triển vọng/dự kiến",
+                "en": "Prospect/expectation"
+              },
+              {
+                "i": 3,
+                "vi": "Dựa trên/cân nhắc",
+                "en": "Taking into account"
+              },
+              {
+                "i": 0,
+                "vi": "Sẽ xem xét lại vấn đề này.",
+                "en": "We will reconsider this matter."
+              }
+            ],
+            "explain": {
+              "vi": "Sẽ xem xét lại vấn đề này.",
+              "en": "We will reconsider this matter."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N2-demo-2",
+            "prompt": "「〜を踏まえて」 nghĩa là gì?",
+            "promptVi": "「〜を踏まえて」 nghĩa là gì?",
+            "promptEn": "Meaning of 「〜を踏まえて」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Có nguy cơ xảy ra",
+                "en": "Risk of happening"
+              },
+              {
+                "i": 0,
+                "vi": "Dựa trên/cân nhắc",
+                "en": "Taking into account"
+              },
+              {
+                "i": 1,
+                "vi": "Triển vọng/dự kiến",
+                "en": "Prospect/expectation"
+              },
+              {
+                "i": 3,
+                "vi": "Nhờ kiểm tra lịch sự",
+                "en": "Polite request to check"
+              }
+            ],
+            "explain": {
+              "vi": "Dựa trên/cân nhắc",
+              "en": "Taking into account"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N2-demo-3",
+            "prompt": "「ご確認のほどお願いいたします」 dùng khi nào?",
+            "promptVi": "「ご確認のほどお願いいたします」 dùng khi nào?",
+            "promptEn": "When is 「ご確認のほどお願いいたします」 used?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Sẽ xem xét lại vấn đề này.",
+                "en": "We will reconsider this matter."
+              },
+              {
+                "i": 1,
+                "vi": "Triển vọng/dự kiến",
+                "en": "Prospect/expectation"
+              },
+              {
+                "i": 2,
+                "vi": "Dựa trên/cân nhắc",
+                "en": "Taking into account"
+              },
+              {
+                "i": 0,
+                "vi": "Nhờ kiểm tra lịch sự",
+                "en": "Polite request to check"
+              }
+            ],
+            "explain": {
+              "vi": "Nhờ kiểm tra lịch sự",
+              "en": "Polite request to check"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N2-demo-4",
+            "prompt": "「見込み」 nghĩa là gì?",
+            "promptVi": "「見込み」 nghĩa là gì?",
+            "promptEn": "What does 「見込み」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Nhờ kiểm tra lịch sự",
+                "en": "Polite request to check"
+              },
+              {
+                "i": 0,
+                "vi": "Triển vọng/dự kiến",
+                "en": "Prospect/expectation"
+              },
+              {
+                "i": 1,
+                "vi": "Dựa trên/cân nhắc",
+                "en": "Taking into account"
+              },
+              {
+                "i": 3,
+                "vi": "Có nguy cơ xảy ra",
+                "en": "Risk of happening"
+              }
+            ],
+            "explain": {
+              "vi": "Triển vọng/dự kiến",
+              "en": "Prospect/expectation"
+            },
+            "romaji": ""
+          }
+        ],
+        "index": 1,
+        "answers": [
+          {
+            "id": "N2-demo-0",
+            "prompt": "「〜かねない」 thể hiện điều gì?",
+            "correct": true,
+            "seconds": 8,
+            "answer": "",
+            "expected": "Có nguy cơ xảy ra",
+            "hints": 0
+          }
+        ],
+        "selected": null,
+        "hints": 0,
+        "qSeconds": 0,
+        "startedAt": "2026-10-30T01:16:25.730Z",
+        "lastSaved": "2026-10-28T01:16:25.730Z",
+        "feedback": false
+      },
+      "seenTour": false,
+      "extraSessions": [
+        {
+          "at": "2026-10-30T01:16:25.717Z",
+          "minutes": 14
+        },
+        {
+          "at": "2026-10-29T01:16:25.717Z",
+          "minutes": 18
+        },
+        {
+          "at": "2026-10-28T01:16:25.717Z",
+          "minutes": 22
+        },
+        {
+          "at": "2026-10-27T01:16:25.718Z",
+          "minutes": 26
+        },
+        {
+          "at": "2026-10-26T01:16:25.718Z",
+          "minutes": 30
+        },
+        {
+          "at": "2026-10-25T01:16:25.718Z",
+          "minutes": 34
+        },
+        {
+          "at": "2026-10-24T01:16:25.718Z",
+          "minutes": 38
+        }
+      ]
+    },
+    "learner_n3": {
+      "id": "learner_n3",
+      "name": "Learner N3",
+      "jp": "ケン",
+      "avatar": "👦🏻",
+      "target": "N3",
+      "context": "home",
+      "goal": 30,
+      "lang": "vi",
+      "minutes": 1160,
+      "days": 26,
+      "accuracy": 75,
+      "history": [
+        {
+          "kind": "N3-demo",
+          "correct": 3,
+          "total": 5,
+          "daysAgo": 1,
+          "seconds": 217,
+          "id": "learner_n3-seed-0",
+          "at": "2026-10-29T01:16:25.718Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        },
+        {
+          "kind": "N3-demo",
+          "correct": 4,
+          "total": 5,
+          "daysAgo": 8,
+          "seconds": 194,
+          "id": "learner_n3-seed-1",
+          "at": "2026-10-22T01:16:25.718Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        }
+      ],
+      "pausedSnapshots": {},
+      "review": [
+        {
+          "id": "learner_n3-r-0",
+          "text": "にもかかわらず",
+          "note": "Liên kết N3",
+          "kind": "N3-demo",
+          "source": "sample",
+          "at": "2026-10-29T01:16:25.718Z"
+        },
+        {
+          "id": "learner_n3-r-1",
+          "text": "提出期限",
+          "note": "Từ vựng N3",
+          "kind": "N3-demo",
+          "source": "sample",
+          "at": "2026-10-28T01:16:25.718Z"
+        }
+      ],
+      "snapshot": {
+        "kind": "N3-demo",
+        "questions": [
+          {
+            "id": "N3-demo-0",
+            "prompt": "「〜ようにする」 có nghĩa nào?",
+            "promptVi": "「〜ようにする」 có nghĩa nào?",
+            "promptEn": "Meaning of 「〜ようにする」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Hãy nêu lý do.",
+                "en": "Please state your reason."
+              },
+              {
+                "i": 0,
+                "vi": "Cố gắng tạo thói quen",
+                "en": "Make an effort to do regularly"
+              },
+              {
+                "i": 2,
+                "vi": "Hạn nộp",
+                "en": "Submission deadline"
+              },
+              {
+                "i": 3,
+                "vi": "Lịch trình đã thay đổi.",
+                "en": "The schedule has changed."
+              }
+            ],
+            "explain": {
+              "vi": "Cố gắng tạo thói quen",
+              "en": "Make an effort to do regularly"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N3-demo-1",
+            "prompt": "「理由を述べてください」 yêu cầu gì?",
+            "promptVi": "「理由を述べてください」 yêu cầu gì?",
+            "promptEn": "What does 「理由を述べてください」 request?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Mặc dù / bất chấp",
+                "en": "Despite / although"
+              },
+              {
+                "i": 0,
+                "vi": "Hãy nêu lý do.",
+                "en": "Please state your reason."
+              },
+              {
+                "i": 1,
+                "vi": "Cố gắng tạo thói quen",
+                "en": "Make an effort to do regularly"
+              },
+              {
+                "i": 2,
+                "vi": "Hạn nộp",
+                "en": "Submission deadline"
+              }
+            ],
+            "explain": {
+              "vi": "Hãy nêu lý do.",
+              "en": "Please state your reason."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N3-demo-2",
+            "prompt": "「にもかかわらず」 diễn đạt gì?",
+            "promptVi": "「にもかかわらず」 diễn đạt gì?",
+            "promptEn": "What does 「にもかかわらず」 express?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Lịch trình đã thay đổi.",
+                "en": "The schedule has changed."
+              },
+              {
+                "i": 0,
+                "vi": "Mặc dù / bất chấp",
+                "en": "Despite / although"
+              },
+              {
+                "i": 2,
+                "vi": "Hạn nộp",
+                "en": "Submission deadline"
+              },
+              {
+                "i": 3,
+                "vi": "Hãy nêu lý do.",
+                "en": "Please state your reason."
+              }
+            ],
+            "explain": {
+              "vi": "Mặc dù / bất chấp",
+              "en": "Despite / although"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N3-demo-3",
+            "prompt": "「予定が変更になりました。」 nghĩa là?",
+            "promptVi": "「予定が変更になりました。」 nghĩa là?",
+            "promptEn": "Meaning of 「予定が変更になりました。」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Lịch trình đã thay đổi.",
+                "en": "The schedule has changed."
+              },
+              {
+                "i": 2,
+                "vi": "Hãy nêu lý do.",
+                "en": "Please state your reason."
+              },
+              {
+                "i": 3,
+                "vi": "Mặc dù / bất chấp",
+                "en": "Despite / although"
+              },
+              {
+                "i": 1,
+                "vi": "Cố gắng tạo thói quen",
+                "en": "Make an effort to do regularly"
+              }
+            ],
+            "explain": {
+              "vi": "Lịch trình đã thay đổi.",
+              "en": "The schedule has changed."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N3-demo-4",
+            "prompt": "「提出期限」 nghĩa là gì?",
+            "promptVi": "「提出期限」 nghĩa là gì?",
+            "promptEn": "What does 「提出期限」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 0,
+                "vi": "Hạn nộp",
+                "en": "Submission deadline"
+              },
+              {
+                "i": 1,
+                "vi": "Mặc dù / bất chấp",
+                "en": "Despite / although"
+              },
+              {
+                "i": 2,
+                "vi": "Cố gắng tạo thói quen",
+                "en": "Make an effort to do regularly"
+              },
+              {
+                "i": 3,
+                "vi": "Hãy nêu lý do.",
+                "en": "Please state your reason."
+              }
+            ],
+            "explain": {
+              "vi": "Hạn nộp",
+              "en": "Submission deadline"
+            },
+            "romaji": ""
+          }
+        ],
+        "index": 2,
+        "answers": [
+          {
+            "id": "N3-demo-0",
+            "prompt": "「〜ようにする」 có nghĩa nào?",
+            "correct": true,
+            "seconds": 8,
+            "answer": "",
+            "expected": "Cố gắng tạo thói quen",
+            "hints": 0
+          },
+          {
+            "id": "N3-demo-1",
+            "prompt": "「理由を述べてください」 yêu cầu gì?",
+            "correct": true,
+            "seconds": 9,
+            "answer": "",
+            "expected": "Hãy nêu lý do.",
+            "hints": 0
+          }
+        ],
+        "selected": null,
+        "hints": 0,
+        "qSeconds": 0,
+        "startedAt": "2026-10-30T01:16:25.730Z",
+        "lastSaved": "2026-10-28T01:16:25.730Z",
+        "feedback": false
+      },
+      "seenTour": false,
+      "extraSessions": [
+        {
+          "at": "2026-10-30T01:16:25.718Z",
+          "minutes": 14
+        },
+        {
+          "at": "2026-10-29T01:16:25.718Z",
+          "minutes": 18
+        },
+        {
+          "at": "2026-10-28T01:16:25.718Z",
+          "minutes": 22
+        },
+        {
+          "at": "2026-10-27T01:16:25.718Z",
+          "minutes": 26
+        },
+        {
+          "at": "2026-10-26T01:16:25.718Z",
+          "minutes": 30
+        },
+        {
+          "at": "2026-10-25T01:16:25.718Z",
+          "minutes": 34
+        },
+        {
+          "at": "2026-10-24T01:16:25.718Z",
+          "minutes": 38
+        }
+      ]
+    },
+    "learner_n4": {
+      "id": "learner_n4",
+      "name": "Learner N4",
+      "jp": "ハル",
+      "avatar": "🧒🏻",
+      "target": "N4",
+      "context": "train",
+      "goal": 15,
+      "lang": "vi",
+      "minutes": 575,
+      "days": 17,
+      "accuracy": 79,
+      "history": [
+        {
+          "kind": "N4-demo",
+          "correct": 4,
+          "total": 5,
+          "daysAgo": 2,
+          "seconds": 165,
+          "id": "learner_n4-seed-0",
+          "at": "2026-10-28T01:16:25.718Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        },
+        {
+          "kind": "N4-demo",
+          "correct": 3,
+          "total": 5,
+          "daysAgo": 5,
+          "seconds": 202,
+          "id": "learner_n4-seed-1",
+          "at": "2026-10-25T01:16:25.718Z",
+          "assisted": 0,
+          "items": [],
+          "demoSeed": true
+        }
+      ],
+      "pausedSnapshots": {},
+      "review": [
+        {
+          "id": "learner_n4-r-0",
+          "text": "〜なければなりません",
+          "note": "Ngữ pháp N4",
+          "kind": "N4-demo",
+          "source": "sample",
+          "at": "2026-10-29T01:16:25.718Z"
+        },
+        {
+          "id": "learner_n4-r-1",
+          "text": "〜たことがある",
+          "note": "Kinh nghiệm N4",
+          "kind": "N4-demo",
+          "source": "sample",
+          "at": "2026-10-28T01:16:25.718Z"
+        }
+      ],
+      "snapshot": {
+        "kind": "N4-demo",
+        "questions": [
+          {
+            "id": "N4-demo-0",
+            "prompt": "「早く 起きることが できます。」 nghĩa là gì?",
+            "promptVi": "「早く 起きることが できます。」 nghĩa là gì?",
+            "promptEn": "Meaning of 「早く 起きることが できます。」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 1,
+                "vi": "Xin phép",
+                "en": "Ask permission"
+              },
+              {
+                "i": 2,
+                "vi": "Phải làm",
+                "en": "Must do"
+              },
+              {
+                "i": 3,
+                "vi": "Đã ăn rồi.",
+                "en": "Have already eaten."
+              },
+              {
+                "i": 0,
+                "vi": "Có thể dậy sớm.",
+                "en": "Can wake up early."
+              }
+            ],
+            "explain": {
+              "vi": "Có thể dậy sớm.",
+              "en": "Can wake up early."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N4-demo-1",
+            "prompt": "「〜てもいいですか」 dùng để làm gì?",
+            "promptVi": "「〜てもいいですか」 dùng để làm gì?",
+            "promptEn": "What does 「〜てもいいですか」 ask?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Có thể dậy sớm.",
+                "en": "Can wake up early."
+              },
+              {
+                "i": 1,
+                "vi": "Đã từng đến Nhật Bản.",
+                "en": "Have been to Japan before."
+              },
+              {
+                "i": 3,
+                "vi": "Đã ăn rồi.",
+                "en": "Have already eaten."
+              },
+              {
+                "i": 0,
+                "vi": "Xin phép",
+                "en": "Ask permission"
+              }
+            ],
+            "explain": {
+              "vi": "Xin phép",
+              "en": "Ask permission"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N4-demo-2",
+            "prompt": "「もう食べました。」 nghĩa là gì?",
+            "promptVi": "「もう食べました。」 nghĩa là gì?",
+            "promptEn": "Meaning of 「もう食べました。」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Đã từng đến Nhật Bản.",
+                "en": "Have been to Japan before."
+              },
+              {
+                "i": 3,
+                "vi": "Phải làm",
+                "en": "Must do"
+              },
+              {
+                "i": 0,
+                "vi": "Đã ăn rồi.",
+                "en": "Have already eaten."
+              },
+              {
+                "i": 1,
+                "vi": "Xin phép",
+                "en": "Ask permission"
+              }
+            ],
+            "explain": {
+              "vi": "Đã ăn rồi.",
+              "en": "Have already eaten."
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N4-demo-3",
+            "prompt": "「〜なければなりません」 nghĩa là gì?",
+            "promptVi": "「〜なければなりません」 nghĩa là gì?",
+            "promptEn": "Meaning of 「〜なければなりません」?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 3,
+                "vi": "Đã từng đến Nhật Bản.",
+                "en": "Have been to Japan before."
+              },
+              {
+                "i": 1,
+                "vi": "Đã ăn rồi.",
+                "en": "Have already eaten."
+              },
+              {
+                "i": 2,
+                "vi": "Có thể dậy sớm.",
+                "en": "Can wake up early."
+              },
+              {
+                "i": 0,
+                "vi": "Phải làm",
+                "en": "Must do"
+              }
+            ],
+            "explain": {
+              "vi": "Phải làm",
+              "en": "Must do"
+            },
+            "romaji": ""
+          },
+          {
+            "id": "N4-demo-4",
+            "prompt": "「日本に 行ったことが あります。」 nghĩa là gì?",
+            "promptVi": "「日本に 行ったことが あります。」 nghĩa là gì?",
+            "promptEn": "What does 「日本に 行ったことが あります。」 mean?",
+            "answer": 0,
+            "options": [
+              {
+                "i": 2,
+                "vi": "Phải làm",
+                "en": "Must do"
+              },
+              {
+                "i": 3,
+                "vi": "Xin phép",
+                "en": "Ask permission"
+              },
+              {
+                "i": 0,
+                "vi": "Đã từng đến Nhật Bản.",
+                "en": "Have been to Japan before."
+              },
+              {
+                "i": 1,
+                "vi": "Có thể dậy sớm.",
+                "en": "Can wake up early."
+              }
+            ],
+            "explain": {
+              "vi": "Đã từng đến Nhật Bản.",
+              "en": "Have been to Japan before."
+            },
+            "romaji": ""
+          }
+        ],
+        "index": 0,
+        "answers": [],
+        "selected": null,
+        "hints": 0,
+        "qSeconds": 0,
+        "startedAt": "2026-10-30T01:16:25.730Z",
+        "lastSaved": "2026-10-28T01:16:25.730Z",
+        "feedback": false
+      },
+      "seenTour": false,
+      "extraSessions": [
+        {
+          "at": "2026-10-30T01:16:25.718Z",
+          "minutes": 9
+        },
+        {
+          "at": "2026-10-29T01:16:25.718Z",
+          "minutes": 13
+        },
+        {
+          "at": "2026-10-28T01:16:25.718Z",
+          "minutes": 17
+        },
+        {
+          "at": "2026-10-27T01:16:25.718Z",
+          "minutes": 21
+        },
+        {
+          "at": "2026-10-26T01:16:25.718Z",
+          "minutes": 25
+        },
+        {
+          "at": "2026-10-25T01:16:25.718Z",
+          "minutes": 29
+        },
+        {
+          "at": "2026-10-24T01:16:25.718Z",
+          "minutes": 33
+        }
+      ]
+    }
+  }
+}
