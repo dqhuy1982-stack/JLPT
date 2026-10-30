@@ -1,0 +1,42 @@
+name: Validate and package Nihongo Path preview
+
+on:
+  push:
+    branches:
+      - develop
+      - 'feature/**'
+  pull_request:
+    branches:
+      - develop
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check JavaScript, HTML and sample profiles
+        run: node scripts/validate.mjs
+
+      - name: Package standalone preview
+        if: hashFiles('preview/v7/index.html') != ''
+        shell: bash
+        run: |
+          mkdir -p dist
+          cd preview/v7
+          zip -q -9 ../../dist/Nihongo_Path_V7_Preview.zip index.html demo_profiles.json README.md
+
+      - name: Upload downloadable ZIP
+        if: hashFiles('preview/v7/index.html') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: Nihongo_Path_V7_Preview
+          path: dist/Nihongo_Path_V7_Preview.zip
+          if-no-files-found: error
+          retention-days: 30
